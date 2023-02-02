@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(114, 123, 125);
+    display: grid;
+    justify-content: center;
+}
+#comicImg {
+    min-width: 25vw;
+    height: 40%;
+    width: 40%;
+    min-height: 25vh;
+}
+
+header {
+    display: inline-block;
+    background-color: rgb(183, 42, 188);
+    min-width: fit-content;
+    justify-content: center;
+    text-align: center;
+}
+p.titel {
+    display: inline;
+    font-size:50px;
+}
+a.footer {
+   
+    font-size:50px;
+}
+
+main {
+    display: inline-block;
+    max-width: 50vw;
+    text-align: center;
+    background-color: rgb(183, 42, 188);
+    width: 60vw; 
+    
+}
+
+footer {
+    background-color: rgb(183, 42, 188);
+    display: inline-block;
+    min-width: fit-content;
+    text-align: center;
+    
+}
+
+.knapplistan {
+    display: flex;
+    font-size: 2vw;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.knapp {
+    background-color: rgb(255, 255, 255);
+    color: rgb(183, 42, 188);
+}
